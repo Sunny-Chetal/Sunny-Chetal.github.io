@@ -3,7 +3,16 @@
     "allow": [
       "Bash(ls -la \"/Users/sanaachetal/WICSE/wicse-gram-app\" && echo \"---\" && ls -la \"/Users/sanaachetal/Sanaa's Portfolio\")",
       "Read(//Users/sanaachetal/WICSE/wicse-gram-app/**)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(cd \"/Users/sanaachetal/Sanaa's Portfolio\" && rm -rf app components data .next node_modules next.config.ts next-env.d.ts tsconfig.json postcss.config.mjs package-lock.json CLAUDE.md AGENTS.md public/file.svg public/globe.svg public/next.svg public/vercel.svg public/window.svg README.md && ls -la)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(git remote *)",
+      "Bash(git fetch *)"
+    ],
+    "additionalDirectories": [
+      "/Users/sanaachetal/Sanaa's Portfolio/app"
     ]
   }
 }
