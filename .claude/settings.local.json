@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"/Users/sanaachetal/WICSE/wicse-gram-app\" && echo \"---\" && ls -la \"/Users/sanaachetal/Sanaa's Portfolio\")",
+      "Read(//Users/sanaachetal/WICSE/wicse-gram-app/**)",
+      "Bash(git add *)"
+    ]
+  }
+}
